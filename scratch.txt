@@ -1,0 +1,8 @@
+#1  0x0804a1de in Atts::getName (this=0x805dac0) at Atts.cpp:126
+#2  0x0804a99f in Cmbt::CmbtLoop (this=0x805dc40) at Cmbt.cpp:105
+#3  0x0804d462 in World::runEncounter (this=0x805da68) at World.cpp:58
+#4  0x080527cf in main () at main.cpp:43
+(Player->Name claubered when equipping item)
+
+pChar @ 0x805dac0
+pChar->Name @ 0x805dac8

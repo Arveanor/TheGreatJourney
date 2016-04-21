@@ -1,0 +1,12 @@
+.h and .cpp pairs
+
+Arm -- Equipment and inventory.  Maybe include list, definitely include the equipment
+    Class and all subclasses.
+
+Atts -- Everything about character attributes.  Everything to know about a character should be
+    in these files, as well as the tools to build a character.
+
+Combat(name ?) -- All of the combat methods, not sure what sort of class if any would be needed.
+
+Story(name ?) -- All of the story mechanics go in here.  Progression through the story and any
+    text that the player needs to see or understand. 
