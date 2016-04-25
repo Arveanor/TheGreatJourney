@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Drake>
+	<name>Yearling Drake</name>
+	<power>10</power>
+	<defense>4</defense>
+	<precision>7</precision>
+	<vitality>6</vitality>
+	<experience>35</experience>
+	<maxHP>29</maxHP>
+	<damageLow>4</damageLow>
+	<damageHigh>9</damageHigh>
+	<armor>3</armor>
+</Drake>
