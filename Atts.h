@@ -14,6 +14,7 @@
 #ifndef ATTS_H_
 #define ATTS_H_
 #include <string>
+#include <vector>
 
 class Atts{
 	int level;
@@ -48,7 +49,6 @@ public :
 	
 	Atts();	
 	
-
 	void Create();
 	void Upgrade(int iS_pts);
    

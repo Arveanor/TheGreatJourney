@@ -3,7 +3,7 @@
 #include <time.h>
 
 #include "World.h"
-#include "Cmbt.h"
+#include "Combat.h"
 #include "sanctuary.h"
 
 

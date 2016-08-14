@@ -23,7 +23,7 @@ int main() {
    
    
    World *mainWorld = new World();
-   std::cout << "Weapon slot equipped value: " << mainWorld->getChar()->isEquipped[6] << std::endl;
+   std::cout << "Weapon slot equipped value: " << mainWorld->getChar()->getEquipped()[6] << std::endl;
    Inventory *charInv = new Inventory();
    
    std::cout << "My Lord, one of our master smiths took it upon himself to make this blade for you, to lead the armies into battle."

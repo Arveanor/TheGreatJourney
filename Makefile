@@ -1,10 +1,10 @@
 
 CC=clang++
-CFLAGS=-Wall -g
+CFLAGS=-Wall -g -lboost_system -lboost_filesystem -std=c++11
 
 PROJECT = game
 
-OBJECTS=Atts.o Cmbt.o shop.o healer.o smith.o World.o Ability.o list.o Inventory.o sanctuary.o touchStone.o main.o
+OBJECTS=Atts.o Combat.o loader.o shop.o healer.o smith.o World.o Ability.o list.o Inventory.o sanctuary.o touchStone.o main.o
 
 all: ${PROJECT}
 

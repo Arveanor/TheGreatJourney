@@ -18,15 +18,19 @@
 **
 */
 #include "Atts.h"
+#include "loader.h"
 #include <new>
 
 class World {
 Atts *pChar;
+std::vector<Atts> Enemies;
+Loader *ldr;
 public:
-
    World() {
       pChar = new Atts();
       pChar->Create();
+		ldr = new Loader();
+		ldr->loadEnemies(Enemies);
    }
    ~World() {
       delete pChar;
